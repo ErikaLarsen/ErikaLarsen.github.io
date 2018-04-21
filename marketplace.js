@@ -421,8 +421,11 @@ function addMapArea(map, mapSpec, area, i ){
                 var datetime = new Date(date.substring(1,date.length-1));
                 //2018-04-12T16:25:01.000
                 var free = JSON.stringify(data[i].freespaces);
+                free = free.substring(1,free.length-1);
                 var occupied = JSON.stringify(data[i].occupied);
+                occupied = occupied.substring(1,occupied.length-1);
                 var total = JSON.stringify(data[i].totalparkingspaces);
+                total = total.substring(1,total.length-1);
                 content = '<p style="font-size:20px"><b>current data</b><br>'+
                           'data export date/time: ' + datetime.toLocaleString() + '<br>' +
                           'freespaces: '+free+'<br>'+

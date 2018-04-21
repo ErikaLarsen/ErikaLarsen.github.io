@@ -12,7 +12,7 @@ var products = {
         description: '<p>All temperature and humidity data from USC campus sensors updated every minute.</p>', 
         links: '<button style="margin-top: 30px"><a>Buy Data</a></button>'},
     lax: {
-        description: '<p>Get up to the minute updates on how many free spots are available in this or any other parking structure at LAX.</p>', 
+        description: '<p>Get real time updates on how many free spots are available in this or any other parking structure at LAX.</p>', 
         links: '<button style="margin-top: 30px"><a>Buy Data</a></button>'},
     tutornet: {
         description: '<p>Tutornet is a low-power wireless network testbed deployed at the Ming Hsieh Department of Electrical Engineering at the University of Southern California (USC). It is extensively used for research and teaching at USC. Tutornet is currently composed of 113 sensor nodes (91 TelosB, 13 MicaZ, 9 OpenMote) covering two adjacent floors in the Ronald Tutor Hall building. It features three generations of wireless sensor nodes, all with IEEE802.15.4-compliant radios operating on the 2.4 GHz frequency band.</p>', 
