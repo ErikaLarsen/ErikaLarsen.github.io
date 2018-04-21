@@ -423,11 +423,11 @@ function addMapArea(map, mapSpec, area, i ){
                 var free = JSON.stringify(data[i].freespaces);
                 var occupied = JSON.stringify(data[i].occupied);
                 var total = JSON.stringify(data[i].totalparkingspaces);
-                content = '<b>current data</b><br>'+
+                content = '<p style="font-size:20px"><b>current data</b><br>'+
                           'data export date/time: ' + datetime.toLocaleString() + '<br>' +
                           'freespaces: '+free+'<br>'+
                           'occupied: '+occupied+'<br>'+
-                          'total spaces: '+total;
+                          'total spaces: '+total+'</p>';
                 var info = products.lax.description+'  '+content;
                 displayInfo(area.product,area.description,info,products.lax.links);
             });
